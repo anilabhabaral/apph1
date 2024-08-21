@@ -1,0 +1,142 @@
+2024-08-21 14:19:51,035 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.0.Final-redhat-00001
+2024-08-21 14:19:51,202 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.1.Final-redhat-00001
+2024-08-21 14:19:51,205 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final-redhat-00001
+2024-08-21 14:19:51,247 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: JBoss EAP 8.0.0.GA (WildFly Core 21.0.5.Final-redhat-00001) starting
+2024-08-21 14:19:51,248 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	[Standalone] = 
+	file.encoding = UTF-8
+	file.separator = /
+	java.awt.headless = true
+	java.class.path = /Users/abaral/Downloads/testhib66/jboss-eap-8.0/jboss-modules.jar
+	java.class.version = 61.0
+	java.home = /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home
+	java.io.tmpdir = /var/folders/lq/b8t08zjn0pj2_h9k8ft4bksw0000gn/T/
+	java.library.path = /Users/abaral/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.9+9
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Eclipse Adoptium
+	java.vendor.url = https://adoptium.net/
+	java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+	java.vendor.version = Temurin-17.0.9+9
+	java.version = 17.0.9
+	java.version.date = 2023-10-17
+	java.vm.compressedOopsMode = Zero based
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Eclipse Adoptium
+	java.vm.version = 17.0.9+9
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /Users/abaral/Downloads/testhib66/jboss-eap-8.0
+	jboss.host.name = abaral-mac
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = abaral-mac
+	jboss.qualified.host.name = abaral-mac
+	jboss.server.base.dir = /Users/abaral/Downloads/testhib66/jboss-eap-8.0/standalone
+	jboss.server.config.dir = /Users/abaral/Downloads/testhib66/jboss-eap-8.0/standalone/configuration
+	jboss.server.data.dir = /Users/abaral/Downloads/testhib66/jboss-eap-8.0/standalone/data
+	jboss.server.log.dir = /Users/abaral/Downloads/testhib66/jboss-eap-8.0/standalone/log
+	jboss.server.name = abaral-mac
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/abaral/Downloads/testhib66/jboss-eap-8.0/standalone/tmp
+	jdk.debug = release
+	jdk.serialFilter = maxbytes=10485760;maxdepth=128;maxarray=100000;maxrefs=300000
+	line.separator = 
+
+	logging.configuration = file:/Users/abaral/Downloads/testhib66/jboss-eap-8.0/standalone/configuration/logging.properties
+	module.path = /Users/abaral/Downloads/testhib66/jboss-eap-8.0/modules
+	native.encoding = UTF-8
+	org.jboss.boot.log.file = /Users/abaral/Downloads/testhib66/jboss-eap-8.0/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = aarch64
+	os.name = Mac OS X
+	os.version = 14.6.1
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/lib
+	sun.cpu.endian = little
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/abaral/Downloads/testhib66/jboss-eap-8.0/jboss-modules.jar -mp /Users/abaral/Downloads/testhib66/jboss-eap-8.0/modules org.jboss.as.standalone -Djboss.home.dir=/Users/abaral/Downloads/testhib66/jboss-eap-8.0 -Djboss.server.base.dir=/Users/abaral/Downloads/testhib66/jboss-eap-8.0/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.stderr.encoding = UTF-8
+	sun.stdout.encoding = UTF-8
+	user.country = IN
+	user.dir = /Users/abaral/Downloads/testhib66/jboss-eap-8.0/bin
+	user.home = /Users/abaral
+	user.language = en
+	user.name = abaral
+	user.timezone = Asia/Kolkata
+2024-08-21 14:19:51,249 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -D[Standalone] -Xlog:gc*:file=/Users/abaral/Downloads/testhib66/jboss-eap-8.0/standalone/log/gc.log:time,uptimemillis:filecount=5,filesize=3M -Djdk.serialFilter=maxbytes=10485760;maxdepth=128;maxarray=100000;maxrefs=300000 -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=/Users/abaral/Downloads/testhib66/jboss-eap-8.0/standalone/log/server.log -Dlogging.configuration=file:/Users/abaral/Downloads/testhib66/jboss-eap-8.0/standalone/configuration/logging.properties 
+2024-08-21 14:19:51,481 INFO  [org.wildfly.security] (ServerService Thread Pool -- 26) ELY00001: WildFly Elytron version 2.2.2.Final-redhat-00001
+2024-08-21 14:19:51,670 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 27) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2024-08-21 14:19:51,704 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2024-08-21 14:19:51,710 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.8.12.SP2-redhat-00001
+2024-08-21 14:19:51,713 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.8.12.SP2-redhat-00001
+2024-08-21 14:19:51,728 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0001: Activating Infinispan subsystem.
+2024-08-21 14:19:51,728 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 55) WFLYRS0016: RESTEasy version 6.2.4.Final-redhat-00001
+2024-08-21 14:19:51,729 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 70) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2024-08-21 14:19:51,731 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 51) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2024-08-21 14:19:51,732 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 63) WFLYNAM0001: Activating Naming Subsystem
+2024-08-21 14:19:51,732 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 60) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2024-08-21 14:19:51,733 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 52) WFLYHEALTH0001: Activating Base Health Subsystem
+2024-08-21 14:19:51,735 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 54) WFLYIO001: Worker 'default' has auto-configured to 20 IO threads with 160 max task threads based on your 10 available processors
+2024-08-21 14:19:51,736 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 3.0.2.Final-redhat-00002)
+2024-08-21 14:19:51,737 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 62) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2024-08-21 14:19:51,737 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 72) WFLYWS0002: Activating WebServices Extension
+2024-08-21 14:19:51,753 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 42) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2024-08-21 14:19:51,754 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 2.3.10.SP3-redhat-00001 starting
+2024-08-21 14:19:51,762 INFO  [org.jboss.as.naming] (MSC service thread 1-5) WFLYNAM0003: Starting Naming Service
+2024-08-21 14:19:51,763 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2024-08-21 14:19:51,765 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2024-08-21 14:19:51,769 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 5.0.27.SP2-redhat-00001
+2024-08-21 14:19:51,774 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-4) WFLYELY00023: KeyStore file '/Users/abaral/Downloads/testhib66/jboss-eap-8.0/standalone/configuration/application.keystore' does not exist. Used blank.
+2024-08-21 14:19:51,783 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-5) WFLYELY01084: KeyStore /Users/abaral/Downloads/testhib66/jboss-eap-8.0/standalone/configuration/application.keystore not found, it will be auto-generated on first use with a self-signed certificate for host localhost
+2024-08-21 14:19:51,786 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 71) WFLYUT0014: Creating file handler for path '/Users/abaral/Downloads/testhib66/jboss-eap-8.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2024-08-21 14:19:51,797 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2024-08-21 14:19:51,800 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) Queuing requests.
+2024-08-21 14:19:51,801 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2024-08-21 14:19:51,808 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 40 (per class), which is derived from the number of CPUs on this host.
+2024-08-21 14:19:51,808 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 160 (per class), which is derived from thread worker pool sizing.
+2024-08-21 14:19:51,827 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2024-08-21 14:19:51,858 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2024-08-21 14:19:51,864 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2024-08-21 14:19:51,878 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2024-08-21 14:19:51,905 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "apph1.war" (runtime-name: "apph1.war")
+2024-08-21 14:19:51,934 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/abaral/Downloads/testhib66/jboss-eap-8.0/standalone/deployments
+2024-08-21 14:19:51,943 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 7.0.0.Final-redhat-00001 (Apache CXF 4.0.0.redhat-00002) 
+2024-08-21 14:19:53,578 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.cj.jdbc.Driver (version 8.0)
+2024-08-21 14:19:53,581 WARN  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0013: Deployment apph1.war contains Jakarta Contexts and Dependency Injection annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2024-08-21 14:19:53,598 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = apph1.war_com.mysql.cj.jdbc.Driver_8_0
+2024-08-21 14:19:53,640 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0021: Registered web context: '/apph1' for server 'default-server'
+2024-08-21 14:19:53,666 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "apph1.war" (runtime-name : "apph1.war")
+2024-08-21 14:19:53,683 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2024-08-21 14:19:53,685 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2024-08-21 14:19:53,685 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2024-08-21 14:19:53,687 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 8.0.0.GA (WildFly Core 21.0.5.Final-redhat-00001) started in 2788ms - Started 372 of 594 services (323 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2024-08-21 14:19:59,011 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-1) HHH000204: Processing PersistenceUnitInfo [name: testPU]
+2024-08-21 14:19:59,035 INFO  [org.hibernate.Version] (default task-1) HHH000412: Hibernate ORM core version 6.6.0.Final
+2024-08-21 14:19:59,052 INFO  [org.hibernate.cache.internal.RegionFactoryInitiator] (default task-1) HHH000026: Second-level cache disabled
+2024-08-21 14:19:59,106 WARN  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001002: Using built-in connection pool (not intended for production use)
+2024-08-21 14:19:59,261 WARN  [org.hibernate.orm.deprecation] (default task-1) HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-21 14:19:59,270 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/company]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.33
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 5
+2024-08-21 14:19:59,471 INFO  [org.hibernate.orm.beans] (default task-1) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2024-08-21 14:19:59,492 INFO  [org.hibernate.validator.internal.util.Version] (default task-1) HV000001: Hibernate Validator 8.0.0.Final-redhat-00001
+2024-08-21 14:19:59,616 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] (default task-1) HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.WildFlyStandAloneJtaPlatform]
+2024-08-21 14:19:59,697 INFO  [stdout] (default task-1) --------> 1: Mainak
