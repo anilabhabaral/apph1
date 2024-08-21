@@ -10,9 +10,7 @@ import java.io.IOException;
 
 import org.hibernate.Version;
 
-/**
- * Servlet implementation class RemoteEJBServlet
- */
+
 @WebServlet("/hello")
 public class HelloServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
