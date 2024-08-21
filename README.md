@@ -21,7 +21,7 @@ $ mvn clean install
 ```
 - Deploy the app using cli:
 ```
-./deploy /path/to/apph1.war
+deploy /path/to/apph1.war
 ```
 - Access the app:
 ```
