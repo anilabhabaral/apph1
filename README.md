@@ -23,3 +23,7 @@ $ mvn clean install
 ```
 ./deploy /path/to/apph1.war
 ```
+- Access the app:
+```
+curl http://127.0.0.1:8080/apph1/hello
+```
